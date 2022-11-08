@@ -1,0 +1,9 @@
+2.	Buatlah program seperti dibawah ini sesuaikan dengan nim dan nama anda 
+
+
+print('=================================')
+print('PROGRAM QUIZ')
+print('=================================')
+
+nama = input('masukkan nama : ')
+nim = input('masukkan nim: ')
