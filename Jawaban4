@@ -1,0 +1,29 @@
+4.	Buatlah program sederhana seperti dibawah ini dengan rumus ppn 10/100 dari total harga input
+
+Jawaban:
+
+nim = input('NIM: ')
+nama = input('NAMA : ')
+
+print ("Pilihan")
+print ("1. capucino")
+print ("2. teh")
+print ("3. susu")
+
+pilih = input("masukkan pilihan : ")
+
+if pilih =='1':
+      print ("memilih CAPUCINO")
+elif pilih == '2':
+      print ("memilih TEH")
+elif pilih == '3':
+      print ("memilih SUSU")
+
+harga = input("masukkan harga : ")
+
+harga = 3000
+pajak = 0.10
+
+total = harga + (harga * pajak)
+
+print("Total = %.2f" % total)
