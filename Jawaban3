@@ -1,0 +1,20 @@
+3.	Jelaskan perbedaan looping dengan continue dan break dari codingan di bawah ini 
+for val in "bahasa": 
+         if val == "h": 
+continue 
+#break
+    print (val) 
+print ("selesai")
+
+Jawaban:
+
+for val in "bahasa":
+  if val == "h":
+    break
+  print (val)
+print ("selesai")
+
+
+- Looping dengan continue hanya melewati 1 proses perulangan saja. Pada contoh di atas yaitu ingin membuat kata “Bahasa”, lalu terdapat kondisi if  val = h: continue, maka ketika nilai variabel counter val sudah mencapai h, kode program yang ada di bawah perintah continue akan dilewati dan proses perulangan lanjut ke iterasi ke kata selanjutnya yaitu a.
+- Didalam perulangan jenis for ini menggunakan looping break, terdapat kondisi if val = h. Jika di kondisi ini terpenuhi (variabel counter val sudah bernilai h) maka kita langsung jalankan perintah break. Program berhenti di kata yang bernilai h dan tidak dilanjutkan.
+
